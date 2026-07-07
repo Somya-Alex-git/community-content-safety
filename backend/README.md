@@ -1,1 +1,1 @@
-community-content-safety / backend / README.md
+Backend files for the Community Content Safety project.
