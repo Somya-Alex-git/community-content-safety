@@ -1,19 +1,22 @@
 # Responsible AI
 
-## Fairness
-Treat all users equally.
+## Objective
+Use Azure AI Content Safety to detect harmful content while following Responsible AI principles.
 
-## Reliability and Safety
-Detect harmful content accurately.
+## Principles
+- Fairness
+- Reliability and Safety
+- Privacy and Security
+- Transparency
+- Accountability
 
-## Privacy and Security
-Protect user data and API keys.
+## Azure AI Content Safety Features
+- Detect Hate Speech
+- Detect Violence
+- Detect Sexual Content
+- Detect Self-harm Content
 
-## Inclusiveness
-Support diverse users and languages.
-
-## Transparency
-Explain why content is blocked.
-
-## Accountability
-Allow human review of moderation decisions.
+## Current Status
+- Azure AI Content Safety resource created.
+- Content Safety Studio opened.
+- Testing pending because of permission restrictions.
