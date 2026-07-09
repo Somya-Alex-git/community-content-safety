@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Community Content Moderation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1 id="pageTitle">Community Content Moderation</h1>
+
+    <div id="homeSection">
+
+        <p id="description">
+            This application helps identify harmful, offensive, or inappropriate
+            community content using Azure AI Content Safety. Users can choose to
+            moderate either text or images to help maintain a safe online
+            community.
+        </p>
+
+        <label id="contentLabel">Select Content Type</label>
+
+        <select id="contentType">
+            <option value="">--Select--</option>
+            <option value="text">Text</option>
+            <option value="image">Image</option>
+        </select>
+
+        <button id="startBtn" onclick="startModeration()">
+            Start Moderation
+        </button>
+
+    </div>
+
+    <!-- Text Section -->
+
+    <div id="textSection" style="display:none;">
+
+        <label>Enter Text</label><br>
+
+        <textarea id="textInput" rows="6"></textarea>
+
+    </div>
+
+    <!-- Image Section -->
+
+    <div id="imageSection" style="display:none;">
+
+        <label>Upload Image</label><br>
+
+        <input
+            type="file"
+            id="imageUpload"
+            accept="image/*">
+
+        <br><br>
+
+        <img id="preview">
+
+    </div>
+
+    <button id="submitBtn" onclick="submitForm()" style="display:none;">
+        Submit
+    </button>
+    <button id="backBtn" onclick="goHome()" style="display:none;">
+    ← Back to Home
+</button>
+
+    <p id="message"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
